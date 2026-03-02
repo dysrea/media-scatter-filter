@@ -34,7 +34,7 @@ To find the exact color and intensity of the optical interference ($A$), we cann
 2. Find the corresponding pixels in the original image $I(x)$.
 3. Take the maximum intensity among these pixels to define $A = [A_r, A_g, A_b]$.
 
-### Step 3: Calculating the Transmission Map ($t(x)$)
+### Step 3: Calculating the Transmission Map (t(x))
 By normalizing the scattering equation by $A$ and applying the dark channel operation on both sides, the true radiance term drops out (since $J^{dark} \approx 0$). We can then solve directly for the transmission map:
 
 $$t(x) = 1 - \omega \min_{c} \left( \min_{y \in \Omega(x)} \frac{I^c(y)}{A^c} \right)$$
