@@ -39,7 +39,7 @@ By normalizing the scattering equation by $A$ and applying the dark channel oper
 
 $$t(x) = 1 - \omega \min_{c} \left( \min_{y \in \Omega(x)} \frac{I^c(y)}{A^c} \right)$$
 
-*Note: A constant $\omega = 0.85$ to $0.95$ is introduced to retain a small amount of distant scattering, maintaining natural depth perception and preventing color over-saturation ("Red Shift"). We use a micro-patch size (e.g., 3x3) here to prevent the "Fat Boundary Problem."*
+*Note: A constant  ω = 0.85 to 0.95 is introduced to retain a small amount of distant scattering, maintaining natural depth perception and preventing color over-saturation ("Red Shift"). We use a micro-patch size (e.g., 3x3) here to prevent the "Fat Boundary Problem."*
 
 ### Step 4: Edge-Preserving Smoothing (The Guided Filter)
 The raw transmission map $t(x)$ is calculated in discrete local patches, resulting in blocky artifacts. To refine this into a pixel-perfect depth map, we use a **Guided Filter**. 
