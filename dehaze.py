@@ -98,7 +98,7 @@ def guided_filter(I, p, radius=60, eps=0.0001):
     return q
 
 if __name__ == "__main__":
-    print("Initializing Atmospheric Dehazing Pipeline...")
+    print("Initializing pipeline...")
     
     img = cv2.imread('images/foggy.jpg').astype('float64') / 255.0
     
@@ -120,7 +120,7 @@ if __name__ == "__main__":
     t_refined = t_refined_8u.astype('float64') / 255.0
     
     clear_img = recover_image(img, t_refined, A)        
-    print("Dehazing complete!")
+    print("Dehazing complete.")
     
     cv2.namedWindow('Final Clear Image', cv2.WINDOW_NORMAL)
     cv2.resizeWindow('Final Clear Image', 1000, 800)
