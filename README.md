@@ -53,7 +53,7 @@ With $A$ and $t(x)$ mathematically estimated, we invert Koschmieder’s equation
 
 $$J(x) = \frac{I(x) - A}{\max(t(x), t_0)} + A$$
 
-*Note: The term $t_0$ (typically $0.1$) acts as a lower-bound threshold to prevent division-by-zero explosions in areas where the optical medium is infinitesimally dense.*
+*Note: The term t₀ (typically 0.1) acts as a lower-bound threshold to prevent division-by-zero explosions in areas where the optical medium is infinitesimally dense.*
 
 ## Tech Stack & Execution
 * **Language:** Python
