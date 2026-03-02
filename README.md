@@ -58,3 +58,5 @@ $$J(x) = \frac{I(x) - A}{\max(t(x), t_0)} + A$$
 ## Tech Stack & Execution
 * **Language:** Python
 * **Libraries:** NumPy (Vectorized matrix calculus), OpenCV (`cv2`, `ximgproc` for 8-bit Guided Filter optimization).
+
+### Media Credits: [@_maniacguy](https://www.instagram.com/_maniacguy/)
